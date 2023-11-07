@@ -1,0 +1,17 @@
+{
+  "name": "opencv_and_ipc",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start-node": "dotenv -e .env node server.js",
+    "start-python": "dotenv -e .env python server.py"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-cli": "^7.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}
