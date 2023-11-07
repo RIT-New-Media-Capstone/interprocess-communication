@@ -7,7 +7,7 @@ const makeName = async (first_name, last_name) => {
         first_name: 'John',
         last_name: 'Doe'
     };
-
+ 
     const result = await fetch(`http://localhost:${PORT}/make_name`, {
         method: 'POST',
         body: JSON.stringify(data),
